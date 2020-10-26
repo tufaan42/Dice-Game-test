@@ -51,7 +51,7 @@ btnRoll.addEventListener('click', function () {
     const dice = Math.trunc(Math.random() * 6) + 1;
 
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `dice/dice-${dice}.png`;
     if(dice == 6){
       flag++;
     }
